@@ -288,7 +288,7 @@ video_player.addEventListener('touchmove',()=>{
 // blob url
 
 let xhr = new XMLHttpRequest();
-xhr.open("GET","./media/intro.mp4");
+xhr.open("GET"," ");
 xhr.responseType = "arraybuffer";
 xhr.onload = (e)=>{
     let blob = new Blob([xhr.response]);
